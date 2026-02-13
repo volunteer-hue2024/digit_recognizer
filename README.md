@@ -1,10 +1,10 @@
  
 # Image based Deep Learning projects
   
-1. classification 
-2. generation - Goto GAN repo
+a. classification 
+b. generation - Goto GAN repo
 
-## IMAGE CLASSIFICATION PROJECTS
+## a) IMAGE CLASSIFICATION PROJECTS
 
 ## 1. Digit_recognizer
 A deep learning model that can classify 0-9 digits
@@ -35,3 +35,9 @@ Focuses on **Transfer Learning** using high-level pre-trained models
 * **Custom vs. Standard Preprocessing**: In the **CIFAR-100 notebook**, preprocessing is tied to the specific requirements of pre-trained models like ResNet50 or VGG16, which may involve specialized scaling or color-channel adjustments beyond simple normalization. In contrast, the **Fashion-MNIST notebook** uses a standard manual normalization approach.
 * **Target Representation**: The **Fashion-MNIST project** one-hot encodes labels into 10-class vectors early in the process. The **CIFAR-100 project** retains sparse integer labels, which is often more memory-efficient when dealing with a larger number of classes (100).
 * **Input Requirements**: The CIFAR-100 images are already in a 3nd-order tensor format (32x32x3) suitable for standard CNNs, whereas the Fashion-MNIST images require a manual reshape to include the single grayscale channel dimension before they can be processed by CNN layers.
+
+
+
+
+
+## b) IMAGE GENERATION PROJECT - Gan
